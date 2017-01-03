@@ -67,11 +67,8 @@
 					<sp:Body />
 				</sp:EncryptedParts>
 				<sc:KeyStore wspp:visibility="private"
-					location="/home/max/tomcat/conf/certs/server-keystore.jks" type="JKS"
+					location="server-keystore.jks" type="JKS"
 					storepass="changeit" alias="calculator-server" />
-				<!-- <sc:KeyStore wspp:visibility="private" -->
-				<!-- location="C:\Users\mramos\.babun\cygwin\home\mramos\tomcat\conf\certs\server-keystore.jks" -->
-				<!-- type="JKS" storepass="changeit" alias="calculator-server" /> -->
 				<sp:EncryptedSupportingTokens>
 					<wsp:Policy>
 						<sp:UsernameToken
