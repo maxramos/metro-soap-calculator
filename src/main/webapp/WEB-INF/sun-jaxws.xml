@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name="Calculator" implementation="ph.maxramos.metro.soap.calculator.Calculator" url-pattern="/Calculator" />
+	<endpoint name="AsymmetricCalculator" implementation="ph.maxramos.metro.soap.calculator.AsymmetricCalculator" url-pattern="/AsymmetricCalculator" />
+	<endpoint name="SymmetricCalculator" implementation="ph.maxramos.metro.soap.calculator.SymmetricCalculator" url-pattern="/SymmetricCalculator" />
+	<endpoint name="TransportCalculator" implementation="ph.maxramos.metro.soap.calculator.TransportCalculator" url-pattern="/TransportCalculator" />
+</endpoints>
