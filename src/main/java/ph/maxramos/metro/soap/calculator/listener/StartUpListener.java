@@ -4,15 +4,15 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-//import com.sun.xml.ws.transport.http.HttpAdapter;
+import com.sun.xml.ws.transport.http.HttpAdapter;
 
 @WebListener
 public class StartUpListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		//		HttpAdapter.dump = true;
-		//		HttpAdapter.dump_threshold = 8192;
+		HttpAdapter.dump = true;
+		HttpAdapter.dump_threshold = 8192;
 	}
 
 	@Override
