@@ -66,9 +66,8 @@
 				<sp:EncryptedParts>
 					<sp:Body />
 				</sp:EncryptedParts>
-				<sc:KeyStore wspp:visibility="private"
-					location="server-keystore.jks" type="JKS"
-					storepass="changeit" alias="calculator-server" />
+				<sc:KeyStore wspp:visibility="private" location="server-keystore.jks"
+					type="JKS" storepass="changeit" alias="calculator-server" />
 				<sp:EncryptedSupportingTokens>
 					<wsp:Policy>
 						<sp:UsernameToken
